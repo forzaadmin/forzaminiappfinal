@@ -14,7 +14,7 @@ const PODCASTS = [
   {
     title: "Navigating Narcissism with Dr. Ramani",
     apple: "https://podcasts.apple.com/us/podcast/navigating-narcissism-with-dr-ramani/id1629909313",
-    spotify: "https://open.spotify.com/search/Navigating%20Narcissism%20Dr%20Ramani",
+    spotify: https://open.spotify.com/search/Navigating%20Narcissism%20Dr%20Ramani,
   },
   {
     title: "The Narcissist in Your Life (Linda Martinez-Lewi, PhD)",
