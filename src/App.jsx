@@ -17,24 +17,24 @@ const PODCASTS = [
     spotify: https://open.spotify.com/search/Navigating%20Narcissism%20Dr%20Ramani,
   },
   {
-    title: "The Narcissist in Your Life (Linda Martinez-Lewi, PhD)",
-    apple: "https://podcasts.apple.com/us/podcast/the-narcissist-in-your-life-podcast/id1082661703",
-    spotify: "https://open.spotify.com/show/5hm79OQZ7pZRBgeavFCbZh"
+    title: "The Covert Narcissism Podcast (Renee Swanson)",
+    apple: https://podcasts.apple.com/us/search?term=The%20Covert%20Narcissism%20Podcast%20Renee%20Swanson,
+    spotify: https://open.spotify.com/search/The%20Covert%20Narcissism%20Podcast%20Renee%20Swanson
   },
   {
-    title: "It’s Not Normal, It’s Toxic: Rid Your Life of Toxic People",
-    apple: "https://podcasts.apple.com/us/podcast/its-not-normal-its-toxic-rid-your-life-of-toxic-people/id1447345411",
-    spotify: "https://open.spotify.com/show/0aMcJkUEXvNxxN8jQ2iZfr"
+    title: The Narcissistic Abuse & Trauma Recovery Podcast (Caroline Strawson),
+    apple: https://podcasts.apple.com/us/search?term=Caroline%20Strawson%20Narcissistic%20Abuse%20%26%20Trauma%20Recovery,
+    spotify: https://open.spotify.com/search/Caroline%20Strawson%20Narcissistic%20Abuse%20Trauma%20Recovery
   },
   {
-    title: "Breaking Free from Narcissistic Abuse",
-    apple: "https://podcasts.apple.com/us/podcast/breaking-free-from-narcissistic-abuse/id1622510706",
-    spotify: "https://open.spotify.com/show/7wQO7aX6ixkmKuuNHYsY6g"
+    title: Narcissist Apocalypse,
+    apple: https://podcasts.apple.com/us/search?term=Narcissist%20Apocalypse,
+    spotify: https://open.spotify.com/search/Narcissist%20Apocalypse
   },
   {
-    title: "Surviving Narcissism (Dr. Les Carter)",
-    apple: "https://podcasts.apple.com/us/podcast/surviving-narcissism/id1469020194",
-    spotify: "https://open.spotify.com/show/6qA3MhN8vix3R4sCJWzWuq"
+    title: Waking Up to Narcissism (Tony Overbay, LMFT),
+    apple: https://podcasts.apple.com/us/search?term=Waking%20Up%20to%20Narcissism%20Tony%20Overbay ,
+    spotify: https://open.spotify.com/search/Waking%20Up%20to%20Narcissism%20Tony%20Overbay
   }
 ];
 
