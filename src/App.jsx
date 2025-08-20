@@ -105,7 +105,7 @@ function Home({ setPage }) {
       {/* Spotlight card */}
       <section className="w-full max-w-md mt-8">
         <div className="rounded-2xl border border-neutral-800 bg-neutral-900/60 p-4">
-          <h2 className="text-base font-medium">🌙 This Month in The Feelings Forum</h2>
+          <h2 className="text-base font-medium">🥳 This Month in The Feelings Forum</h2>
           <p className="text-sm text-neutral-300 mt-1">
             <span className="font-semibold text-white">Escaping Narcissism</span> — Live chat space + curated pods & videos.
           </p>
@@ -121,7 +121,6 @@ function Home({ setPage }) {
         <TileButton href={"https://www.google.com/maps/dir/?api=1&destination=5215%20N%20Sabino%20Canyon%20Rd%2C%20Tucson%2C%20AZ%2085750"}>
           <div className="text-base font-medium">Directions</div>
           <div className="text-xs text-neutral-600 mt-1">5215 N Sabino Canyon Rd</div>
-        <div className="flex justify-center space-x-6 mt-8">
   {/* Call */}
   <a
     href="tel:5202166216"
@@ -156,8 +155,7 @@ function Home({ setPage }) {
     Click for Directions
   </a>
 </div>
-
-  );
+ );
 }
 
 function Forum({ setPage }) {
