@@ -105,7 +105,7 @@ function Home({ setPage }) {
       {/* Spotlight card */}
       <section className="w-full max-w-md mt-8">
         <div className="rounded-2xl border border-neutral-800 bg-neutral-900/60 p-4">
-          <h2 className="text-base font-medium">🥳 This Month in The Feelings Forum</h2>
+          <h2 className="text-base font-medium">🙂 This Month in The Feelings Forum</h2>
           <p className="text-sm text-neutral-300 mt-1">
             <span className="font-semibold text-white">Escaping Narcissism</span> — Live chat space + curated pods & videos.
           </p>
@@ -118,30 +118,33 @@ function Home({ setPage }) {
 
       {/* Utility */}
       <section className="w-full max-w-md mt-6 grid grid-cols-2 gap-3">
-  {/* Call */}
-  <TileButton href={"tel:+15202166216"}>
-    <div className="text-base font-medium">Call</div>
-    <div className="text-xs text-neutral-600 mt-1">(520) 216-6216</div>
-  </TileButton>
+        {/* Call */}
+        <TileButton href={"tel:+15202166216"}>
+          <div className="text-base font-medium">Call</div>
+          <div className="text-xs text-neutral-600 mt-1">(520) 216-6216</div>
+        </TileButton>
 
-  {/* Text */}
-  <TileButton href={"sms:+15202166216"}>
-    <div className="text-base font-medium">Text</div>
-    <div className="text-xs text-neutral-600 mt-1">(520) 216-6216</div>
-  </TileButton>
+        {/* Text */}
+        <TileButton href={"sms:+15202166216"}>
+          <div className="text-base font-medium">Text</div>
+          <div className="text-xs text-neutral-600 mt-1">(520) 216-6216</div>
+        </TileButton>
 
-  {/* Email */}
-  <TileButton href={"mailto:Admin@forzabehavioralhealth.com"}>
-    <div className="text-base font-medium">Email</div>
-    <div className="text-xs text-neutral-600 mt-1">Admin@forzabehavioralhealth.com</div>
-  </TileButton>
+        {/* Email */}
+        <TileButton href={"mailto:Admin@forzabehavioralhealth.com"}>
+          <div className="text-base font-medium">Email</div>
+          <div className="text-xs text-neutral-600 mt-1">Admin@forzabehavioralhealth.com</div>
+        </TileButton>
 
-  {/* Click for Directions */}
-  <TileButton href={GOOGLE_DIRECTIONS}>
-    <div className="text-base font-medium">Click for Directions</div>
-    <div className="text-xs text-neutral-600 mt-1">5215 N Sabino Canyon Rd</div>
-  </TileButton>
-</section>
+        {/* Click for Directions */}
+        <TileButton href={GOOGLE_DIRECTIONS}>
+          <div className="text-base font-medium">Click for Directions</div>
+          <div className="text-xs text-neutral-600 mt-1">5215 N Sabino Canyon Rd</div>
+        </TileButton>
+      </section>
+    </>
+  );
+}
 function Forum({ setPage }) {
   return (
     <section className="w-full max-w-md mt-6">
