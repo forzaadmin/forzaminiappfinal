@@ -121,13 +121,42 @@ function Home({ setPage }) {
         <TileButton href={"https://www.google.com/maps/dir/?api=1&destination=5215%20N%20Sabino%20Canyon%20Rd%2C%20Tucson%2C%20AZ%2085750"}>
           <div className="text-base font-medium">Directions</div>
           <div className="text-xs text-neutral-600 mt-1">5215 N Sabino Canyon Rd</div>
-        </TileButton>
-        <TileButton href={"tel:+15202166216"}>
-          <div className="text-base font-medium">Call</div>
-          <div className="text-xs text-neutral-600 mt-1">(520) 216-6216</div>
-        </TileButton>
-      </section>
-    </>
+        <div className="flex justify-center space-x-6 mt-8">
+  {/* Call */}
+  <a
+    href="tel:5202166216"
+    className="px-4 py-2 bg-white text-black rounded-xl shadow hover:bg-neutral-200"
+  >
+    Call
+  </a>
+
+  {/* Text */}
+  <a
+    href="sms:5202166216"
+    className="px-4 py-2 bg-white text-black rounded-xl shadow hover:bg-neutral-200"
+  >
+    Text
+  </a>
+
+  {/* Email */}
+  <a
+    href="mailto:Admin@forzabehavioralhealth.com"
+    className="px-4 py-2 bg-white text-black rounded-xl shadow hover:bg-neutral-200"
+  >
+    Email
+  </a>
+
+  {/* Directions */}
+  <a
+    href="https://maps.google.com/?q=5215+N+Sabino+Canyon+Rd+Tucson+AZ+85750"
+    className="px-4 py-2 bg-white text-black rounded-xl shadow hover:bg-neutral-200"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Click for Directions
+  </a>
+</div>
+
   );
 }
 
