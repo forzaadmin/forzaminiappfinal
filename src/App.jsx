@@ -13,7 +13,7 @@ const GOOGLE_DIRECTIONS = "https://www.google.com/maps/dir/?api=1&destination=52
 const PODCASTS = [
   {
     title: "Navigating Narcissism with Dr. Ramani",
-    apple: "https://podcasts.apple.com/us/podcast/navigating-narcissism-with-dr-ramani/id1594632988",
+    apple: "https://podcasts.apple.com/us/podcast/navigating-narcissism-with-dr-ramani/id1629909313",
     spotify: "https://open.spotify.com/show/5xAHXwq5N6UNl0dQy3ht5D",
   },
   {
